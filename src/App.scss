@@ -28,17 +28,16 @@ $card-border-color: #ddd;
 .sidebar {
   background-color: $background-color;
   color: $primary-color;
+}
 
-    .title {
-      font-weight: bold;
-      margin-bottom: 5px;
-    }
 
-    .details {
-      color: #666;
-    }
-  
+.title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
 
+.details {
+  color: #666;
 }
 
 .main-content {
@@ -87,12 +86,15 @@ hr {
   margin: 10px 0;
 }
 
+.btn-icon {
+  padding: 0 !important;
+  height: fit-content !important;
+}
 
 .icon {
   width: 24px;
   height: 24px;
   margin: 0 5px;
-  color: white !important;
 
   &:hover {
     filter: brightness(0.7);

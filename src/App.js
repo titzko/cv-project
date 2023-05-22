@@ -1,6 +1,9 @@
 import './App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Sidebar from './components/Sidebar.js';
+import Header from './components/Header';
+import Education from './components/Education';
+import Experience from './components/Experience';
 
 
 function App() {
@@ -13,15 +16,15 @@ function App() {
     
       <div className="main-content">
         <div className="header">
-          {/* Name, title, profile */}
+          <Header />
         </div>
         
         <div className="education">
-          {/* Education */}
+          <Education />
         </div>
 
         <div className="experience">
-          {/* Experience/Skills */}
+          <Experience />
         </div>
       </div>
     </div>
